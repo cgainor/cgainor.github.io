@@ -45,6 +45,13 @@ img {
     background-color: rgb(153, 192, 206);
 }
 
+.navbar {
+	margin-top:0 !important;
+    padding-top: 8px !important;
+    margin-bottom:0 !important;
+	padding-bottom: 10px !important;
+}
+
 #logo {
     vertical-align: middle;
 }
