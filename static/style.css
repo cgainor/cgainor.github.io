@@ -1,0 +1,153 @@
+/* My Stylesheet */
+
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    color: black
+}
+
+h2, h3, h4 {
+    color: rgb(111, 146, 158);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    align-content: center;
+  }
+
+#image_pad {
+    margin: 20px auto;
+}
+
+/* Background Box */
+.box {
+    padding: 30px;
+    background: whitesmoke;
+    margin: 60px;
+    align-content: center;
+    block-size: auto;
+}
+
+#center {
+    text-align: center;
+    align-content: center;
+}
+
+#center_pic {
+    display: block;
+    margin: 0 auto;
+  }
+
+#datatable th {
+    background-color: rgb(153, 192, 206);
+}
+
+#logo {
+    vertical-align: middle;
+}
+
+.navbar-brand span {
+    /* font-size:2rem;
+	line-height:1.2;
+	font-weight: 200; */
+	display:inline-block;
+	vertical-align:middle;
+	padding:10px 10px 0 10px;
+}
+
+.navbar-brand b {
+    display:block;
+	font-size:50%;
+	line-height:1;
+}
+
+.navbar-nav {
+	margin-left:auto;
+}
+
+#tan-back {
+    background: url(../images/marble-brown-patterned-texture.jpg) left top repeat;
+    padding: 15px;
+    background-size: cover;
+    opacity: .6;
+}
+
+#triangle-back {
+    background: url(../images/triangles.jpg) left top repeat;
+    padding: 15px;
+    background-size: cover;
+    opacity: 1;
+}
+
+@media (max-width: 812px) {
+    /* Manage Display Headers for Mobile Devices */
+    .display-1 {
+        font-size: 3rem;
+        font-weight: 300;
+        line-height: 1.0;
+    }
+    
+    .display-2 {
+        font-size: 2.75rem;
+        font-weight: 300;
+        line-height: 1.0;
+    }
+    
+    .display-3 {
+        font-size: 2.25rem;
+        font-weight: 300;
+        line-height: 1.0;
+    }
+    
+    .display-4 {
+        font-size: 1.75rem;
+        font-weight: 300;
+        line-height: 1.0;
+    }
+}
+
+.row.equal-height {
+    display: flex;
+    flex-wrap: wrap;
+}
+.row.equal-height > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    flex: 1;   
+}
+
+/* Float five columns side by side */
+.column {
+    float: center;
+    width: 20%;
+    padding: 0 3px;
+  }
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.MYcard {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  padding: 0px;
+  text-align: center;
+  background-color: #f1f1f1;
+  border-radius: 3%;
+  max-width: 100%;
+}
+.card-text {
+    word-wrap: break-word;
+}

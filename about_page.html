@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap Stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Bootswatch Stylesheet -->
+    <link rel="stylesheet" href="static/bootstyle.css">
+    <!-- My Stylesheet -->
+    <link rel="stylesheet" href="static/style.css">
+    <!-- Title -->
+    <title>Courtney Gainor</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Create Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#e5ddd2;">
+
+        <!-- Header (Home Link) is Home Button -->
+        <a class="navbar-brand" href="index.html"><img id="logo" alt="Logo" src="images/pollution.png" width="20"
+                height="20"><span>Home</span></a>
+
+        <!-- Make it so navbar collapses to icon dropdown when window size decreased -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Stuff in collapsible navbar -->
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <!-- Menu items -->
+            <div class="navbar-nav ml-auto nav-item dropdown">
+                <a class="nav-item nav-link" href="about_page.html">About</a>
+                <a class="nav-item nav-link" href="data_page.html">Data</a>
+            </div>
+        </div>
+    </nav>
+    <!-- End of Navbar -->
+
+    <!-- Make About Page -->
+
+    <!-- Project Description (with reference links box) -->
+    <div>
+        <div class="container-fluid">
+            <div class="row justify-content-around">
+                <div class="col-lg-6">
+                    <br>
+                    <h1>About the Project</h1>
+                    <h4>The purpose</h4>
+                    <h6>To predict U.S. rates of respiratory infection amongst adults on a county-level by analyzing
+                        several air quality metrics</h6>
+                    <h4>The Plan</h4>
+                    <ol>
+                        <li>Identify data sets</li>
+                        <li>Clean data sets, removing unneeded data</li>
+                        <li>Develop ML models</li>
+                        <li>Record stats from target cities</li>
+                        <li>Compare model outputs to city targets</li>
+                        <li>Create charts in Tableau</li>
+                        <li>Embed visualizations in a website</li>
+                    </ol>
+
+                </div>
+                <div class="col-lg-5">
+                    <div class="container"
+                        style="margin-top:20px;margin-bottom:20px;text-align: center;background-color: #f5f5f5">
+                        <h4 style="padding-top: 20px;padding-bottom: 10px;color:#909aa1"><strong>Meet the Team</strong>
+                        </h4>
+                        <div class="row">
+                            <!-- Courtney -->
+                            <div class="column">
+                                <div class="MYcard h-100">
+                                    <img class="card-img-top" style="padding-bottom: 5px" src="images/Courtney.jpeg"
+                                        alt="Card image">
+                                    <h5 class="card-title card-text"
+                                        style="font-size: 10px;padding: 2px;white-space:normal;"><strong>Courtney
+                                            Gainor</strong></h5>
+                                    <h6 class="card-subtitle card-text mb-2 text-muted"
+                                        style="font-size: 7px;padding: 2px"><a href="https://github.com/cgainor"
+                                            target="_blank">Github: cgainor</href></a>
+                                    </h6>
+                                </div>
+                            </div>
+                            <!-- Jorge -->
+                            <div class="column">
+                                <div class="MYcard h-100">
+                                    <img class="card-img-top" style="padding-bottom: 5px" src="images/Jorge.jpeg"
+                                        alt="Card image">
+                                    <h5 class="card-title card-text"
+                                        style="font-size: 10px;padding: 2px;white-space: normal"><strong>Jorge
+                                            Pires</strong>
+                                    </h5>
+                                    <h6 class="card-subtitle card-text mb-2 text-muted"
+                                        style="font-size: 7px;padding: 2px;letter-spacing: 2px"><a
+                                            href="https://github.com/jorgepires311" target="_blank">Github:
+                                            jorgepires311
+                                            </href></a></h6>
+                                </div>
+                            </div>
+                            <!-- James -->
+                            <div class="column">
+                                <div class="MYcard h-100">
+                                    <img class="card-img-top" style="padding-bottom: 5px" src="images/James.jpeg"
+                                        alt="Card image">
+                                    <h5 class="card-title card-text"
+                                        style="font-size: 10px;padding: 2px;white-space: normal;"><strong>James
+                                            Carter</strong></h5>
+                                    <h6 class="card-subtitle card-text mb-2 text-muted"
+                                        style="font-size: 7px;padding-left: 5px;padding-right: 5px;padding-top: 2px;padding-bottom: 2px">
+                                        <a href="https://github.com/jmc39" target="_blank">Github: jmc39</href></a></h6>
+                                </div>
+                            </div>
+                            <!-- John -->
+                            <div class="column">
+                                <div class="MYcard h-100">
+                                    <img class="card-img-top" style="padding-bottom: 5px" src="images/John.jpeg"
+                                        alt="Card image">
+                                    <h5 class="card-title card-text"
+                                        style="font-size: 10px;padding-left: 10px; padding: 2px;white-space: normal;">
+                                        <strong>John Read</strong></h5>
+                                    <h6 class="card-subtitle card-text mb-2 text-muted"
+                                        style="font-size: 7px;padding: 2px;letter-spacing: .5px">
+                                        <a href="https://github.com/industrialhygiene1" target="_blank">Github:
+                                            industrialhygiene1</href></a></h6>
+                                </div>
+                            </div>
+                            <!-- Edward -->
+                            <div class="column">
+                                <div class="MYcard h-100">
+                                    <img class="card-img-top" style="padding-bottom: 5px" src="images/Edward.jpeg"
+                                        alt="Card image">
+                                    <h5 class="card-title card-text" style="font-size: 10px;padding: 2px"><strong>Edward
+                                            Shafron</strong></h5>
+                                    <h6 class="card-subtitle card-text mb-2 text-muted"
+                                        style="font-size: 7px;padding: 2px"><a href="https://github.com/EShafron"
+                                            target="_blank">Github:
+                                            EShafron</href></a></h6>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Space -->
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section with tan background image -->
+    <div id="tan-back">
+        <div>
+            <div class="container-fluid">
+                <div class="row justify-content-around" style="text-align: center">
+                    <h1 style="color: black">The Results</h1>
+                    <h4><a href="#RepMeas" style="color: rgb(111, 146, 158)">Definition of Reported Measures</a></h4>
+                    <h4><a href="#HowTo" style="color: rgb(111, 146, 158)">How to Read Maps and Tables</a></h4>
+                    <h4><a href="#SRC" style="color: rgb(111, 146, 158)">Data Sources</a></h4>
+                    <h4><a href="#LimData" style="color: rgb(111, 146, 158)">Limitations of the Data</a></h4>
+                    <h4><a href="#Citation" style="color: rgb(111, 146, 158)">Suggested Citation</a></h4>
+                    <h4><a href="#Code" style="color: rgb(111, 146, 158)">View the Code</a></h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row justify-content-around">
+            <div class="col" style="margin-left: 2%">
+                <br>
+                <h4 id="RepMeas">Definition of Reported Measures</h4>
+                <h6 style="display:inline;">Nitrogen Dioxide (NO<sub>2</sub>) - </h6>
+                <h7 style="display:inline;">"Nitrogen Dioxide (NO2) is one of a group of highly reactive gases known as
+                    oxides of nitrogen or nitrogen oxides (NOx). Other nitrogen oxides include nitrous acid and nitric
+                    acid. NO2 is used as the indicator for the larger group of nitrogen oxides. NO2 primarily gets in
+                    the air from the burning of fuel. NO2 forms from emissions from cars, trucks and buses, power
+                    plants, and off-road equipment. Breathing air with a high concentration of NO2 can irritate airways
+                    in the human respiratory system. Such exposures over short periods can aggravate respiratory
+                    diseases, particularly asthma, leading to respiratory symptoms (such as coughing, wheezing or
+                    difficulty breathing), hospital admissions and visits to emergency rooms. Longer exposures to
+                    elevated concentrations of NO2 may contribute to the development of asthma and potentially increase
+                    susceptibility to respiratory infections. People with asthma, as well as children and the elderly
+                    are generally at greater risk for the health effects of NO2. NO2 along with other NOx reacts with
+                    other chemicals in the air to form both particulate matter and ozone. Both of these are also harmful
+                    when inhaled due to effects on the respiratory system"
+                    (https://www.epa.gov/no2-pollution/basic-information-about-no2#What%20is%20NO2).</h7><br>
+                <h6 style="display:inline;">Carbon Monoxide (CO) - </h6>
+                <h7 style="display:inline;">"Carbon monoxide (CO), an odorless, colorless gas, which can cause sudden
+                    illness and death, is produced any time a fossil fuel is burned. CO is found in fumes produced any
+                    time you burn fuel in cars or trucks, small engines, stoves, lanterns, grills, fireplaces, gas
+                    ranges, or furnaces. CO can build up indoors and poison people and animals who breathe it. The most
+                    common symptoms of CO poisoning are headache, dizziness, weakness, upset stomach, vomiting, chest
+                    pain, and confusion. Everyone is at risk for CO poisoning. Infants, the elderly, people with chronic
+                    heart disease, anemia, or breathing problems are more likely to get sick from CO. Each year, more
+                    than 400 Americans die from unintentional CO poisoning not linked to fires, more than 20,000 visit
+                    the emergency room, and more than 4,000 are hospitalized" (https://www.cdc.gov/co/faqs.htm).</h7>
+                <br>
+                <h6 style="display:inline;">Local Conditions (PM<sub>2.5</sub>) - </h6>
+                <h7 style="display:inline;">"PM2.5 refers to atmospheric particulate matter (PM) that have a diameter of
+                    less than 2.5 micrometers, which is about 3% the diameter of a human hair. Commonly written as
+                    PM2.5, particles in this category are so small that they can only be detected with an electron
+                    microscope. They are even smaller than their counterparts PM10, which are particles that are 10
+                    micrometres or less, and are also called fine particles. Fine particles can come from various
+                    sources. They include power plants, motor vehicles, airplanes, residential wood burning, forest
+                    fires, agricultural burning, volcanic eruptions and dust storms. Some are emitted directly into the
+                    air, while others are formed when gases and particles interact with one another in the atmosphere.
+                    Since they are so small and light, fine particles tend to stay longer in the air than heavier
+                    particles. This increases the chances of humans and animals inhaling them into the bodies. Owing to
+                    their minute size, particles smaller than 2.5 micrometers are able to bypass the nose and throat and
+                    penetrate deep into the lungs and some may even enter the circulatory system. Studies have found a
+                    close link between exposure to fine particles and premature death from heart and lung disease. Fine
+                    particles are also known to trigger or worsen chronic disease such as asthma, heart attack,
+                    bronchitis and other respiratory problems" (https://blissair.com/what-is-pm-2-5.htm).</h7><br>
+                <h6 style="display:inline;">Ozone (O<sub>3</sub>) - </h6>
+                <h7 style="display:inline;">"When inhaled, ozone can damage the lungs. Relatively low amounts can cause
+                    chest pain, coughing, shortness of breath and throat irritation. Ozone may also worsen chronic
+                    respiratory diseases such as asthma and compromise the ability of the body to fight respiratory
+                    infections. People vary widely in their susceptibility to ozone. Healthy people, as well as those
+                    with respiratory difficulty, can experience breathing problems when exposed to ozone. Exercise
+                    during exposure to ozone causes a greater amount of ozone to be inhaled, and increases the risk of
+                    harmful respiratory effects. Recovery from the harmful effects can occur following short-term
+                    exposure to low levels of ozone, but health effects may become more damaging and recovery less
+                    certain at higher levels or from longer exposures (US EPA, 1996a, 1996b)"
+                    (https://www.epa.gov/indoor-air-quality-iaq/ozone-generators-are-sold-air-cleaners).</h7><br>
+                <br>
+                <h4 id="HowTo">How to Read Maps and Tables</h4>
+                <h6 style="display:inline;">- </h6>
+                <h7 style="display:inline;">The maps and tables are divided up by machine learning model: multiple
+                    linear regression vs. random forest regression.</h7><br>
+                <h6 style="display:inline;">- </h6>
+                <h7 style="display:inline;">Interactive maps show county-level detail on asthma mortality rate per
+                    100,000 people. Applying
+                    filters to select a subset of states and counties allows for ad hoc data exploration. Users can
+                    download data extracts of filtered selections.</h7><br>
+                <h6 style="display:inline;">- </h6>
+                <h7 style="display:inline;">The tables are interactive crosstabs drawn from the same data set as the
+                    maps. The tables are
+                    organized by observed vs. predicted asthma mortality rate and disaggregated to the County-level.
+                    Users can download data extracts of filtered selections.</h7>
+                <br>
+                <br>
+                <h4 id="SRC">Data Sources</h4>
+                <h6><a href="https://www.kaggle.com/epa/epa-historical-air-quality" target="_blank">EPA Historical
+                        Air
+                        Quality Data</a></h6>
+                <h6><a href="http://ghdx.healthdata.org/record/ihme-data/united-states-chronic-respiratory-disease-mortality-rates-county-1980-2014"
+                        target="_blank">United States Chronic Respiratory Disease Mortality Rates by County</a></h6>
+                <br>
+                <h4 id="LimData">Limitations of the Data</h4>
+                <h6 style="display:inline;">1 - </h6>
+                <h7 style="display:inline;">Asthma, as our outcome measure, was based on annual mortality rate.
+                    Generally, health outcomes are assessed based on prevalence. Further, death caused by asthma is
+                    rare
+                    relatively to other illnesses.</h7>
+                <br>
+                <h6 style="display:inline;">2 - </h6>
+                <h7 style="display:inline;">For the project EPA data set, air quality was monitored at multiple
+                    sites in
+                    some counties and at one site in other counties. It is unclear if the EPA standardizes the
+                    geographic distribution of the sites or if counties determine how many and where. Therefore it
+                    is
+                    unclear whether geographic distribution impacts the model.</h7>
+                <br>
+                <h6 style="display:inline;">3 - </h6>
+                <h7 style="display:inline;">Out of the 3242 US counties (as measured by FIPS code), the data from ML
+                    models visualized represent:
+                    MLR -
+                    1108 county observations;
+                    363 county predictions
+                    <em>and</em>
+                    RFR -
+                    1107 county observations;
+                    363 county predictions.</h7>
+                <br>
+                <br>
+                <h4 id="Citation">Suggested Citation</h4>
+                <h6>Predicting Respiratory Disease Mortality Rates From Air Quality Analysis. Accessed
+                    [Month/Day/Year]
+                    from
+                    https://awws-group.github.io/Predicting-Respiratory-Disease-Mortality-From-Air-Quality-Analysis/index.html.
+                </h6>
+                <br>
+                <h4 id="Code">View the Code</h4>
+                <h6><a href="multi_linear.html">Click here to view the Jupyter Notebook detailing the process to
+                        create
+                        and use the Multi-Linear Regression Model</a></h6>
+                <h6><a href="random_forest.html">Click here to view the Jupyter Notebook detailing the process to
+                        create
+                        and use the Random Forest Regression Model</a></h6>
+                <h6><a href="de-dupe_pollutants_data.html">Click here to view the Jupyter Notebook detailing the
+                        Pollutants Data</a></h6>
+                <h6><a href="images/air_pollution.png"
+                        target="_blank">Click here to view "The Amazing World of Science" Visualization</a></h6>
+                <h6><a href="https://github.com/awws-group/Predicting-Respiratory-Disease-Mortality-From-Air-Quality-Analysis.git"
+                        target="_blank">Click here to view the Github Repository for this Project</a></h6>
+                <br>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
