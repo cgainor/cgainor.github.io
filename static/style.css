@@ -158,3 +158,23 @@ img {
 .card-text {
     word-wrap: break-word;
 }
+
+/* Style the footer */
+.footer{
+	background-color:#e5ddd2;
+	border-radius: .3rem;
+	text-align: center;
+    padding-top: 20px;
+    padding-bottom: 3px
+}
+
+/* Center image in column */
+.contentCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100%;
+    width: auto;
+    border-radius: 4px;
+    padding-bottom: 30px
+  }
