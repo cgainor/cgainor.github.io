@@ -177,4 +177,9 @@ img {
     width: auto;
     border-radius: 4px;
     padding-bottom: 30px
-  }
+}
+
+/* Bold text */
+strong {
+    font-weight:bold;
+}
